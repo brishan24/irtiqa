@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:Neo Sans Arabic;
+    
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 1200px;
+
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    margin: 10px 10px 10px 80px;
+    font-weight: 700;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #0A4A7A;
+
+
+}
+
+.navigation a:hover{
+    text-decoration: none;
+    color: #DCA249;
+
+
+}
+
+.LOGO{
+    width: 100px;
+}
+
+hr{
+    color: #0A4A7A;
+}
+
+.slogan{
+    font-weight: 900;
+    font-size: 100px;
+    text-align: right;
+    padding: 179px 150px 0 0;
+
+}
