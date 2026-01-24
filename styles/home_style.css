@@ -20,7 +20,8 @@ header{
 }
 
 .navigation ul{
-    width: -200px;
+    background: #ffffff;
+    width: -300px;
     display: flex;
     list-style-type: none;
     gap: 200px;
@@ -46,9 +47,12 @@ header{
 }
 
 .LOGO{
-    height: 150px;
-    width: 150px;
+    position: relative;
+    height: 180px;
+    width: 180px;
     padding: 10px;
+    margin: 20px;
+    left: 160px;
 
 }
 
@@ -57,28 +61,34 @@ hr{
 }
 
 .slogan{
-
+    position: absolute;
+    margin: 200px;
+    top: -250;
     text-align: right;
     padding: 250px 0 0 1300px;
     margin: 100px 0 0 0 ;
     align-items: center;
+    margin-bottom: ;
      
 }
 
 .slogUp{
+    width: 500px;
     color: #0A4A7A;
     position: absolute;
     font-weight: 900;
     font-size: 40px;
 }
-
+.slogUp li{}
 .slogDown{
+    width: 800px;
     color: #DFA33D;
     position: absolute;
     font-weight: 500;
     font-size: 21px;
-    margin: 200px 0 0 0;
+    margin: 200px 100px 0 -300px;
 }
+ 
 
 /* .engslog{
     color: #DFA33D;
@@ -92,11 +102,23 @@ hr{
 } */
 
 .hero{
+    width: 2000px;
+    margin: -20px;     
     align-items: center;
+    
 }
 
-.wellcome{
+.wellcome ul{
+    background: #ffffff;
+    position: absolute;
+    width: 1800px;
+    height: 400px;
     margin: 150px;
+    padding: 20px 20px 20px 20px;
     gap: 20px;
     
+}
+
+.wellcome li{
+    margin-bottom: 40px;
 }
