@@ -1,0 +1,102 @@
+.main{
+    position: relative;
+}
+
+.AL-Irtqa{
+    position: absolute;
+    top: 500px;
+    right: 100px;
+
+    z-index: 5;
+     
+    
+    
+}
+
+.rise{
+
+    position: absolute;
+    top: 650px;
+    right: 100px;
+    z-index: 5;
+
+}
+
+.mainphoto{
+    width: 1500px;
+    position: relative;
+    z-index: 1;
+    margin: 250px 00px 00px 00px;
+
+}
+
+.icon{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin: 50px 300px 1000px 00px ;
+    padding: 00px 50px 00px 00px;
+    bottom: -120px;
+    right: -250px;
+    z-index: 4;
+
+}
+
+.mainText{
+    width: 1200px;
+    bottom: 950px;
+    left: 100px;
+    right: 200px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px 00px -70px;
+
+
+}
+
+.mainpage{
+    position: relative;
+    bottom: 10px;
+    left: 1000px; 
+    margin-right: -30px;
+    
+     
+}
+.who-we-are{
+
+    position: relative;
+    bottom: 10px;
+    left: 650px; 
+
+}
+.our-news{
+
+    position: relative;
+    bottom: 10px;
+    left: 250px;
+
+}
+.communicate-us{
+
+    position: relative;
+    bottom: 20px;
+    left: -200px;
+
+}
+.wellcome img{
+    position: relative;
+    display: flex;
+    margin-bottom: 60px;
+    margin: auto;
+    top: 200px;
+    padding-bottom: 40px;
+    
+    
+    
+     
+    
+    
+}
+ 
