@@ -57,14 +57,44 @@ hr{
 }
 
 .slogan{
+
+    text-align: right;
+    padding: 250px 0 0 1300px;
+    margin: 100px 0 0 0 ;
+    align-items: center;
+     
+}
+
+.slogUp{
     color: #0A4A7A;
     position: absolute;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
+}
+
+.slogDown{
+    color: #DFA33D;
+    position: absolute;
+    font-weight: 500;
+    font-size: 21px;
+    margin: 200px 0 0 0;
+}
+
+/* .engslog{
+    color: #DFA33D;
+    position: absolute;
+    font-weight: 500;
+    font-size: 21px;
     text-align: right;
     padding: 250px 0 0 1000px;
+    margin: 300px 0 0 310px;
      
+} */
+
+.hero{
+    align-items: center;
 }
+
 .wellcome{
     margin: 150px;
     gap: 20px;
