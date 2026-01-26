@@ -1,0 +1,113 @@
+.home a{
+    color: #114C7B;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Neo Sans Arabic;
+
+}
+.home-link{
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.home a:hover{
+    text-decoration: none;
+    color: #DCA249;
+}
+
+
+
+.content{
+
+}
+
+.vision{
+
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #114C7B;
+    font-family: Neo Sans Arabic;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.vision img{
+    position: absolute;
+    margin-left: 66px;
+    margin-top: -25px;
+
+}
+.vision p{
+    position: absolute;
+    margin-left: -340px;
+    margin-top: -290px;
+    margin-bottom: 500px;
+    direction: rtl;
+    writing-mode: vertical-rl;
+    transform: rotate(270deg);
+}
+
+
+
+.message{
+
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #114C7B;
+    font-family: Neo Sans Arabic;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.message img{
+    position: absolute;
+    margin-left: 66px;
+    margin-top: -25px;
+
+}
+.message p{
+    position: absolute;
+    margin-left: -340px;
+    margin-top: -290px;
+    margin-bottom: 500px;
+    direction: rtl;
+    writing-mode: vertical-rl;
+    transform: rotate(270deg);
+}
+
+
+
+.goals{
+
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #114C7B;
+    font-family: Neo Sans Arabic;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.goals img{
+    position: absolute;
+    margin-left: 66px;
+    margin-top: -25px;
+
+}
+.goals p{
+    position: absolute;
+    margin-left: -340px;
+    margin-top: -290px;
+    margin-bottom: 500px;
+    direction: rtl;
+    writing-mode: vertical-rl;
+    transform: rotate(270deg);
+}
+
