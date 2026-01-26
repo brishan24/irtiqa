@@ -28,8 +28,15 @@ header{
     margin: 10px 10px 10px 80px;
     font-weight: 700;
     font-size: 22px;
-    margin: 10px 30px;
+    margin: 10px -100px;
+    
+     
 
+}
+
+.navigation li{
+    width: 120px;
+    align-items: center;
 }
 
 .navigation a{
@@ -65,10 +72,10 @@ hr{
     margin: 200px;
     top: -250;
     text-align: right;
-    padding: 250px 0 0 1300px;
+    padding: 250px 0 20px 1300px;
     margin: 100px 0 0 0 ;
     align-items: center;
-    margin-bottom: ;
+    margin-bottom: 20px;
      
 }
 
@@ -79,14 +86,17 @@ hr{
     font-weight: 900;
     font-size: 40px;
 }
-.slogUp li{}
+.slogUp li{
+    margin-bottom: 20px;
+}
 .slogDown{
     width: 800px;
     color: #DFA33D;
     position: absolute;
     font-weight: 500;
     font-size: 21px;
-    margin: 200px 100px 0 -300px;
+    margin: 200px 100px 200px -300px;
+    top: 280px;
 }
  
 
@@ -121,4 +131,27 @@ hr{
 
 .wellcome li{
     margin-bottom: 40px;
+}
+
+
+.buttom{
+    position: absolute;
+    background: #11507D;
+    width: 2048px;
+    height: 200px;
+    top: 2000px;
+}
+
+.buttom-icon{
+    position: relative;
+    width: 120px;
+    left: 100px;
+    bottom: -55px;
+}
+.buttom-icon1{
+    position: relative;
+    width: 400px;
+    left: 1500px;
+    bottom: -55px;
+
 }
