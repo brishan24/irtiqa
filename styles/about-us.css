@@ -20,9 +20,10 @@
 
 
 .content{
-
+    position: relative;
+    justify-content: center;
+    
 }
-
 .vision{
 
     display: block;
@@ -37,18 +38,18 @@
 }
 .vision img{
     position: absolute;
-    margin-left: 66px;
-    margin-top: -25px;
+    margin-left: 90px;
+    margin-top: -00px;
 
 }
 .vision p{
     position: absolute;
-    margin-left: -340px;
-    margin-top: -290px;
+    margin-left: -360px;
+    margin-top: -100px;
     margin-bottom: 500px;
+    white-space: pre-line;
     direction: rtl;
-    writing-mode: vertical-rl;
-    transform: rotate(270deg);
+     
 }
 
 
@@ -67,18 +68,18 @@
 }
 .message img{
     position: absolute;
-    margin-left: 66px;
-    margin-top: -25px;
+    margin-left: 110px;
+    margin-top: -00px;
 
 }
 .message p{
     position: absolute;
-    margin-left: -340px;
-    margin-top: -290px;
+    margin-left: -446px;
+    margin-top: -100px;
     margin-bottom: 500px;
+    white-space: pre-line;
     direction: rtl;
-    writing-mode: vertical-rl;
-    transform: rotate(270deg);
+     
 }
 
 
@@ -97,17 +98,19 @@
 }
 .goals img{
     position: absolute;
-    margin-left: 66px;
-    margin-top: -25px;
+    margin-left: 130px;
+    margin-top: -00px;
 
 }
 .goals p{
+     
     position: absolute;
-    margin-left: -340px;
-    margin-top: -290px;
+    margin-left: -360px;
+    margin-top: -95px;
     margin-bottom: 500px;
+    white-space: pre-line;
     direction: rtl;
-    writing-mode: vertical-rl;
-    transform: rotate(270deg);
+    
+     
 }
 
