@@ -55,8 +55,8 @@ header{
 
 .LOGO{
     position: relative;
-    height: 180px;
-    width: 180px;
+    height: 140px;
+    width: 140px;
     padding: 10px;
     margin: 20px;
     left: 160px;
@@ -69,13 +69,12 @@ hr{
 
 .slogan{
     position: absolute;
-    margin: 200px;
-    top: -250;
+    top: 50px;
     text-align: right;
-    padding: 250px 0 20px 1300px;
+    padding: 250px 0 20px 1200px;
     margin: 100px 0 0 0 ;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
      
 }
 
@@ -84,10 +83,9 @@ hr{
     color: #0A4A7A;
     position: absolute;
     font-weight: 900;
-    font-size: 40px;
-}
-.slogUp li{
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-right: 600px;
+    left: 900px;
 }
 .slogDown{
     width: 800px;
@@ -95,8 +93,24 @@ hr{
     position: absolute;
     font-weight: 500;
     font-size: 21px;
-    margin: 200px 100px 200px -300px;
+    margin: 160px 100px 200px -600px;
     top: 280px;
+}
+.button{
+    position: absolute;
+    margin: 280px 0 0 -20px;
+}
+.register{
+    position: absolute;
+    margin: 6% 0 0 -77%;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.slogUp li{
+    margin-bottom: 30px;
 }
  
 
@@ -112,46 +126,57 @@ hr{
 } */
 
 .hero{
-    width: 2000px;
+    width: 1500px;
     margin: -20px;     
     align-items: center;
     
 }
 
-.wellcome ul{
-    background: #ffffff;
+
+.wellcome{
     position: absolute;
-    width: 1800px;
-    height: 400px;
-    margin: 150px;
-    padding: 20px 20px 20px 20px;
-    gap: 20px;
-    
-}
-
-.wellcome li{
-    margin-bottom: 40px;
-}
-
-
-.buttom{
+    width: 621.94px;
+    left: calc(50% - 621.94px/2 - 0.03px);
+    top: 130%;
+    bottom: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+} 
+.in-the-home{
     position: absolute;
-    background: #11507D;
-    width: 2048px;
-    height: 200px;
-    top: 2000px;
+    width: 710px;
+    height: 55px;
+    left: calc(50% - 621.94px/2 - 0.03px);
+    top: 1250px;
+
+    font-family: 'Neo Sans Arabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140.29%;
+    /* or 48px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #0F4173;
+
+}
+.wellcome-irtqa{
+    position: absolute;
+    width: 710px;
+    height: 56px;
+    left: calc(50% - 621.94px/2 - 0.03px);
+    top: 1360px;
+    justify-content: center;
+    margin-top: -10px;
 }
 
-.buttom-icon{
-    position: relative;
-    width: 120px;
-    left: 100px;
-    bottom: -55px;
-}
-.buttom-icon1{
-    position: relative;
-    width: 400px;
-    left: 1500px;
-    bottom: -55px;
+ 
 
-}
+
+
+
+ 
