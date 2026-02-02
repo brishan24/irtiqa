@@ -148,21 +148,25 @@
 .stats {
     margin-top: 15%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 3 أعمدة */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 60px;
     text-align: center;
-    direction: rtl; /* لأن النص عربي */
+    direction: rtl;  
     justify-content: center;
     margin-right: 10%;
 }
-
+.stats p{
+    font-family: Neo Sans Arabic;
+    font-weight: 600;
+    color: #061f34;
+}
 .circle {
 
     width: 80px;
     height: 80px;
-    background: #2c3e50;
+    background: #114C7B;
     color: white;
-    border-radius: 50%; /* تخليها دائرة */
+    border-radius: 50%;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,6 +174,88 @@
     margin: 0 auto 10px;
 }
 
-.item p {
-    
+
+
+
+.circle-act{
+    display: flex;
+    width: 3%;
+    height: 50%;
+    background: #EEAD4E;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 96%;
+
+
 }
+.activity h1{
+    position: absolute;
+    display: flex;
+    margin-left: 86%;
+    margin-top: -2%;
+    font-family: Neo Sans Arabic;
+    font-weight: 900;
+    color: #114C7B;
+}
+
+
+
+.stats-act{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 60px;
+    text-align: center;
+    direction: rtl;  
+    justify-content: center;
+    margin-right: 10%;
+}
+.stats-act p{
+    font-family: Neo Sans Arabic;
+    font-weight: 600;
+    color: #061f34;
+}
+.circle {
+
+    width: 80px;
+    height: 80px;
+    background: #114C7B;
+    color: white;
+    border-radius: 50%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0 auto 10px;
+}
+
+
+.rectangle{
+    width: ;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 600%;
+    bottom: 0%;
+    margin-top: 160%;
+
+    background: #EAEFF6;
+}
+.foot-content{
+    position: absolute;
+    display: flex;
+    gap: 260px;
+    bottom: 30%;
+    left: 8%;
+}
+.foot-content img{
+    width: 50%;
+    height: auto;
+}
+.Frame1{
+    margin-bottom: 2%;
+}
+
+
