@@ -1,0 +1,103 @@
+:root {
+  /* Colors */
+  --primary-color: #003b6d; /* Dark Blue */
+  --accent-color: #d4af37; /* Gold */
+  --text-dark: #333333;
+  --text-light: #666666;
+  --background-light: #f9f9f9;
+  --white: #ffffff;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Typography */
+  --font-main:
+    "Tajawal", sans-serif; /* Assuming Tajawal based on Arabic design */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--white);
+  color: var(--text-dark);
+  line-height: 1.6;
+  direction: rtl; /* Arabic Layout */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Utilities */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px; /* Rounded corners */
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: #002a4d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: var(--text-2xl);
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-lg);
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  :root {
+    --text-2xl: 1.25rem;
+  }
+}
