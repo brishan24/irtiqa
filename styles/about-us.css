@@ -1,104 +1,261 @@
-html, body {
+.html, body{
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* لمنع ظهور شريط تمرير أفقي */
-    font-family: 'Neo Sans Arabic', sans-serif;
 }
-
-/* تحسين شريط التنقل */
-.home-link {
-    display: flex;
-    justify-content: flex-start;
-    padding: 20px 40px;
-}
-
-.home a {
+.home a{
     color: #114C7B;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
-    transition: color 0.3s ease;
-}
+    font-family: Neo Sans Arabic;
 
-.home a:hover {
+}
+.home-link{
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.home a:hover{
+    text-decoration: none;
     color: #DCA249;
 }
 
-/* الحاوية الرئيسية للمحتوى (الرؤية، الرسالة، الأهداف) */
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
-    padding: 50px 10%;
-    gap: 80px;
-}
 
-/* تنسيق موحد للأقسام الثلاثة */
-.vision, .message, .goals {
-    display: flex;
-    flex-direction: row-reverse; /* الصورة بجانب النص */
-    align-items: flex-start;
-    gap: 20px;
-    width: 100%;
-    direction: rtl;
-}
 
-.vision p, .message p, .goals p {
+.content{
+    position:  absolute;
+    justify-content: right;
+    margin-left: 20%;
+    
+}
+.vision{
+
+    display: block;
+    justify-content: center;
+    text-decoration: none;
     font-weight: 700;
     font-size: 20px;
     color: #114C7B;
-    line-height: 1.6;
-    margin: 0;
+    font-family: Neo Sans Arabic;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.vision img{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -00px;
+
+}
+.vision p{
+    position: absolute;
+    margin-left: -360px;
+    margin-top: -100px;
+    margin-bottom: 500px;
     white-space: pre-line;
-}
-
-.vision img, .message img, .goals img {
-    width: 60px; /* تحكم في حجم الأيقونات بدقة */
-    height: auto;
-}
-
-/* تنسيق قسم الإحصائيات (الجامعة والأنشطة) */
-.stats, .stats-act {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
-    padding: 50px 10%;
     direction: rtl;
-    text-align: center;
+     
 }
 
+
+
+.message{
+
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #114C7B;
+    font-family: Neo Sans Arabic;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.message img{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -00px;
+
+}
+.message p{
+    position: absolute;
+    margin-left: -446px;
+    margin-top: -100px;
+    margin-bottom: 500px;
+    white-space: pre-line;
+    direction: rtl;
+     
+}
+
+
+
+.goals{
+
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #114C7B;
+    font-family: Neo Sans Arabic;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.goals img{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -00px;
+
+}
+.goals p{
+     
+    position: absolute;
+    margin-left: -360px;
+    margin-top: -95px;
+    margin-bottom: 500px;
+    white-space: pre-line;
+    direction: rtl;
+    
+     
+}
+
+.circle-uni{
+    display: flex;
+    width: 3%;
+    height: 50%;
+    background: #EEAD4E;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 96%;
+
+
+}
+.university h1{
+    position: absolute;
+    display: flex;
+    margin-left: 86%;
+    margin-top: -2%;
+    font-family: Neo Sans Arabic;
+    font-weight: 900;
+    color: #114C7B;
+}
+
+
+
+.stats {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 60px;
+    text-align: center;
+    direction: rtl;  
+    justify-content: center;
+    margin-right: 10%;
+}
+.stats p{
+    font-family: Neo Sans Arabic;
+    font-weight: 600;
+    color: #061f34;
+}
 .circle {
-    width: 100px;
-    height: 100px;
+
+    width: 80px;
+    height: 80px;
     background: #114C7B;
     color: white;
-    border-radius: 50%;
+    border-radius: 50%;  
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
-    margin: 0 auto 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-size: 22px;
+    margin: 0 auto 10px;
 }
 
-/* تنسيق الفوتر (تذييل الصفحة) */
-.rectangle {
-    background: #EAEFF6;
-    padding: 60px 5%;
-    margin-top: 100px;
-}
 
-.foot-content {
+
+
+.circle-act{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap; /* لجعل الفوتر يتجاوب مع الجوال */
-    gap: 40px;
+    width: 3%;
+    height: 50%;
+    background: #EEAD4E;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 96%;
+
+
+}
+.activity h1{
+    position: absolute;
+    display: flex;
+    margin-left: 86%;
+    margin-top: -2%;
+    font-family: Neo Sans Arabic;
+    font-weight: 900;
+    color: #114C7B;
 }
 
-.foot-content img {
-    max-width: 200px;
+
+
+.stats-act{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 60px;
+    text-align: center;
+    direction: rtl;  
+    justify-content: center;
+    margin-right: 10%;
+}
+.stats-act p{
+    font-family: Neo Sans Arabic;
+    font-weight: 600;
+    color: #061f34;
+}
+.circle {
+
+    width: 80px;
+    height: 80px;
+    background: #114C7B;
+    color: white;
+    border-radius: 50%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0 auto 10px;
+}
+
+
+.rectangle{
+    width: ;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 600%;
+    bottom: 0%;
+    margin-top: 160%;
+
+    background: #EAEFF6;
+}
+.foot-content{
+    position: absolute;
+    display: flex;
+    gap: 260px;
+    bottom: 30%;
+    left: 8%;
+}
+.foot-content img{
+    width: 50%;
     height: auto;
 }
+.Frame1{
+    margin-bottom: 2%;
+}
+
+
