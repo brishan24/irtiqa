@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>مركز الارتقاء الجامعي - الصفحة الرئيسية</title>
 
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Font Awesome For Icons -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      referrerpolicy="no-referrer"
     />
 
     <!-- Styles -->
@@ -22,7 +19,7 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div id="app-header"></div>
+    <div id="header"></div>
 
     <main>
       <!-- Hero Section -->
@@ -36,9 +33,6 @@
             <h2 class="subtitle">Rising with Ethics and Knowledge</h2>
             <a href="#" class="btn btn-primary hero-btn">ابدأ الآن</a>
           </div>
-          <div class="hero-image">
-            <img src="../../assets/hero-bg.png" alt="Building Illustration" />
-          </div>
         </div>
         <!-- Background Shape -->
         <div class="hero-shape"></div>
@@ -49,7 +43,7 @@
         <div class="container">
           <div class="welcome-calligraphy">
             <img
-              src="../../assets/welcome.png"
+              src="../../../assets/img/welcome.png"
               alt="أهلاً وسهلاً ومرحباً بكم"
             />
           </div>
@@ -61,29 +55,35 @@
         <div class="container cards-grid">
           <!-- Card 1: Vision -->
           <div class="info-card">
-            <div class="card-icon icon-vision">
-              <i class="fas fa-eye"></i>
+            <div class="card-icon">
+              <i class="fa-solid fa-eye"></i>
             </div>
             <h3>رؤيتنا</h3>
-            <p>ريادة عالمية في بناء الكفاءات الطلابية وتطويرها...</p>
+            <p>ترنوا افاقنا الى اعداد جيل من الطلاب المؤهلين لتنمية مجتمعهم</p>
           </div>
 
           <!-- Card 2: Mission -->
           <div class="info-card">
-            <div class="card-icon icon-mission">
-              <i class="fas fa-scroll"></i>
+            <div class="card-icon">
+              <i class="fa-solid fa-envelope"></i>
             </div>
             <h3>رسالتنا</h3>
-            <p>بناء جيل واعد من الشباب والشابات متميز علمياً وقادر على...</p>
+            <p>
+              سكن طلابي يعمل على ايصال الخدمات الانسانية والتنموية للطلاب
+              والارتقاء بهم فكريا وتربويا ليشاركوا في بناء مستقبل الوطن
+            </p>
           </div>
 
           <!-- Card 3: Goals -->
           <div class="info-card">
-            <div class="card-icon icon-goals">
-              <i class="fas fa-bullseye"></i>
+            <div class="card-icon">
+              <i class="fa-solid fa-crosshairs"></i>
             </div>
             <h3>أهدافنا</h3>
-            <p>تنمية المواهب والقدرات والعمل على استثمارها وتوجيهها...</p>
+            <p>
+              توفير سكن مناسب للطلاب و الاهتمام بالتنمية والتاهيل للطلاب تهيئة
+              الجو المناسب للطلاب و الارتقاء بالطلاب علميا وسلوكيا وثقافيا
+            </p>
           </div>
         </div>
       </section>
@@ -145,14 +145,13 @@
         <div class="container">
           <div class="partners-header">
             <h2 class="section-title" style="display: inline-block">شركاؤنا</h2>
-            <div class="partners-dots"><span></span><span></span></div>
           </div>
 
           <div class="partners-logos">
-            <img src="../../assets/partner1.png" alt="Partner 1" />
-            <img src="../../assets/partner2.png" alt="Partner 2" />
-            <img src="../../assets/partner3.png" alt="Partner 3" />
-            <img src="../../assets/partner4.png" alt="Partner 4" />
+            <img src="../../../assets/img/partner-1.png" alt="Partner 1" />
+            <img src="../../../assets/img/partner-2.png" alt="Partner 2" />
+            <img src="../../../assets/img/partner-1.png" alt="Partner 1" />
+            <img src="../../../assets/img/partner-2.png" alt="Partner 2" />
           </div>
         </div>
       </section>
@@ -161,28 +160,22 @@
       <section class="stats-section">
         <div class="container stats-grid">
           <div class="stat-item">
-            <div class="stat-circle">
-              <span>+7</span>
-            </div>
-            <p>الجامعات</p>
+            <p class="stat-number">+7</p>
+            <p class="stat-label">الجامعات</p>
           </div>
           <div class="stat-item">
-            <div class="stat-circle">
-              <span>+100</span>
-            </div>
-            <p>الطلاب</p>
+            <p class="stat-number">+100</p>
+            <p class="stat-label">الطلاب</p>
           </div>
           <div class="stat-item">
-            <div class="stat-circle">
-              <span>+50</span>
-            </div>
-            <p>الأنشطة</p>
+            <p class="stat-number">+50</p>
+            <p class="stat-label">الأنشطة</p>
           </div>
         </div>
       </section>
     </main>
 
-    <div id="app-footer"></div>
+    <div id="footer"></div>
 
     <!-- Scripts -->
     <script src="../scripts/main.js"></script>
